@@ -8,7 +8,7 @@ resources:
       type: github
       # GitHub Repo(e.g. <FORK>/PowerAppsTestAutomation)
       # Recommended to Fork or Duplicate if custom auth flows are required
-      name: kchikata/PowerAppsTestAutomation #自分のリポジトリ名に変更。
+      name: kchikata/PowerAppsTestAutomation 
       ref: master
       # Name of the GitHub OAuth ADO Service Connection
       endpoint: github.com_kchikata
