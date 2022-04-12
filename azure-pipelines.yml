@@ -11,7 +11,7 @@ resources:
       name: kchikata/PowerAppsTestAutomation #自分のリポジトリ名に変更。
       ref: master
       # Name of the GitHub OAuth ADO Service Connection
-      endpoint: github.com_kchikata　#ADO GitHub OAuth Service Connection Name
+      endpoint: github.com_kchikata
 
 parameters:
  - name: image
