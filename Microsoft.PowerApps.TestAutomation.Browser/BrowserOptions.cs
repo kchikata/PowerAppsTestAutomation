@@ -78,9 +78,7 @@ namespace Microsoft.PowerApps.TestAutomation.Browser
         {
             var options = new FirefoxOptions()
             {
-                UseLegacyImplementation = false;
-                //以下の処理を追加
-                profile.setPreference("privacy.trackingprotection.enabled", false);
+                UseLegacyImplementation = false
             };
 
             return options;
